@@ -1,8 +1,8 @@
 /* * *********************************************************
-Sample code to get communicate Microbit V2 with nrf Connect
+Sample code to get data from the Temperature Sensor 
 This code is only for educational purposes
-The code have more libraries than necessary due to future implementations
-My device name is called "microbio" check out prj.conf to change the name
+The sensor is embedded on the NRF chip so the temperature
+is higher than the ambient temperature
 * ** ** * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #include <zephyr/kernel.h>
